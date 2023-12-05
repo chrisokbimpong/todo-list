@@ -9,7 +9,7 @@ export const Search = () => {
     <div>
       <input
         type="text"
-        placeholder="Search..."
+        placeholder="Search for a task..."
         className="todo-input"
         onChange={(e) => setSearch(e.target.value)}
       />
